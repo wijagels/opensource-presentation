@@ -1,0 +1,40 @@
+\documentclass{beamer}
+\usepackage{apacite}
+\usepackage{filecontents}
+\usepackage{graphicx}
+
+\title{Open Source}
+\subtitle{The Church of Emacs}
+\author{William D. Jagels}
+\institute{Binghamton University}
+\date{April 25, 2016}
+
+\usetheme{Warsaw}
+\setbeamertemplate{itemize items}[default]
+\setbeamertemplate{enumerate items}[default]
+% \AtBeginSection{\frame{\sectionpage}}
+
+
+\setbeamertemplate{section page}
+{
+  \begin{centering}
+    \begin{beamercolorbox}[sep=12pt,center]{part title}
+      \usebeamerfont{section title}\insertsection\par
+    \end{beamercolorbox}
+  \end{centering}
+}
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\begin{document}
+\frame{\titlepage}
+\section{Overview}\frame{\sectionpage}
+\begin{frame}{Overview}
+  \begin{itemize}
+    \item Richard Stallman
+    \item Richard Stallman
+    \item Richard Stallman
+    \item Richard Stallman
+  \end{itemize}
+\end{frame}
+
+\end{document}
